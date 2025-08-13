@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="HTML5 and mastering content." />
+        <meta name="author" content="Kakooza Joel Michael" />
+        <title>HTML5 basics</title>
+        <body>
+
+            <h1>HTML5 basics with diffrent list types 
+                and table demostrations</h1>
+                <p><b>Ordered lists</b></p>
+                <ol type="A">
+                    <li>apples</li>
+                     <li>bananas</li>
+                      <li>grapes</li>
+                       <li>straw berries</li>
+                        <li>jack fruits</li>
+                </ol>
+                <p><b>Unordered lists</b></p>
+<ul type="circle">
+    <li>apples</li>
+     <li>bananas`</li>
+      <li>grapes</li>
+         <li>straw  berries</li>
+          <li>jack fruits</li>
+</ul>
+<p>Definition Lists</p>
+<dl>
+  <dt>CPU</dt>
+  <dd>Central Processing Unit, the brain of the computer</dd>
+  <dt>RAM</dt>
+  <dd>Random Access Memory, used for temporary data storage</dd>
+  <dt>SSD</dt>
+  <dd>Solid State Drive, a fast storage device</dd>
+</dl>
+<p>nested lists</p>
+<ul>
+  <li>Fruits
+    <ul>
+      <li>Apples</li>
+      <li>Bananas</li>
+    </ul>
+  </li>
+  <li>Vegetables
+    <ul>
+      <li>Carrots</li>
+      <li>Broccoli</li>
+    </ul>
+  </li>
+</ul>
+<h3>TABLES</h3>
+<table border="1">
+    <tr>
+    
+    <th>Name</th>
+     <th>Course</th>
+      <th>GPA</th>
+       <th>Campus</th>
+       
+       </tr>
+
+<tr>
+    <td>Joel</td>
+     <td>Bsc.ict</td>
+      <td>4.6</td>
+       <td> UMU kampala</td>
+</tr>
+
+<tr>
+    <td>Kakooza</td>
+    <td>Bsc.cs</td>
+    <td>4.5</td>
+    <td>UMU Nairobi</td>
+    
+</tr>
+<tr>
+    <td> Mary</td>
+    <td>Bsc.IS</td>
+    <td>4.8</td>
+    <td>UMU Fort Portal</td>
+</tr>
+</table>
+
+<h3>MEDIA</h3>
+<P>Images</P>
+
+    <img scr="2.jpeg"alt = "horizon image"width="200" height="200">
+
+
+    <p>LINKED IMAGES</p>
+
+<a href="https://www.google.com/imgres?q=google%20images&imgurl=https%3A%2F%2Fs3.amazonaws.com%2Fimages.seroundtable.com%2Fgoogle-rainbow-texture-1491566442.jpg&imgrefurl=https%3A%2F%2Fwww.seroundtable.com%2Fgoogle-image-search-behavior-29257.html&docid=rFMZ7eKPtXjjSM&tbnid=xsbjMRceiJC7eM&vet=12ahUKEwjeyZ-eifSOAxXXgf0HHTlrO14QM3oECEIQAA..
+i&w=640&h=300&hcb=2&ved=2ahUKEwjeyZ-eifSOAxXXgf0HHTlrO14QM3oECEIQAA">
+
+<img src="google.jpeg" alt="google image" width="200" height="200">
+</a>
+
+
+
+<a href="https://www.google.com/imgres?q=google%20images&imgurl=https%3A%2F%2Fcdn.britannica.com%2F16%2F254816-050-41C9577A%2FGoogle-logo-Googleplex-headquarters-Mountain-View-California.jpg&imgrefurl=https%3A%2F%2Fwww.britannica.com%2Fmoney%2FGoogle-Inc&docid=8hddjE_5h79m3M&tbnid=rUS2s-QCSVC3pM&vet=12ahUKEwjeyZ-eifSOAxXXgf0HHTlrO14QM3oECHoQAA..i&w=1600&h=1062&hcb=2&ved=2ahUKEwjeyZ-eifSOAxXXgf0HHTlrO14QM3oECHoQAA">
+
+    <img src="android.jpeg" alt="google image" width="200" height="200">
+</a>
+
+<p>AUDIO FILES</p>
+
+<audio controls>
+    <source src="Joshua_Baraka_-_Lonely_Vistanaij.com.ng.mp3" type="audio/mp3">
+</audio>
+<p>VIDEOS</p>
+
+<video width="200" height="200" controls>
+    <source src="Lenovo Legion 7i in Glacier White Unboxing.mp4" type="video/mp4">
+    <source src="Lenovo Legion 7i in Glacier White Unboxing.webm" type="video/webm">
+    <source src="Lenovo Legion 7i in Glacier White Unboxing.ogv" type="video/ogg">
+    Your browser does not support the video tag.
+</video>
+<p>FORMS</p>
+<form>
+    <br>
+    <div>
+<label for="name">Name:</label>
+    <input type="text" id="name" name="name" required minlength="2" placeholder="Enter your full name">
+    </div>
+<br>
+    <div>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+    </div>
+    <br>
+    <div>
+    <label for="phone">Phone:</label>
+    <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" placeholder="e.g. 0712345678">
+    </div>
+<br>
+    <div>
+    <label for="dob">Date of Birth:</label>
+    <input type="date" id="dob" name="dob" required>
+    </div>
+    <br>
+    <div>
+<label>Gender:</label>
+    <input type="radio" name="gender" value="male" required> Male
+    <input type="radio" name="gender" value="female"> Female
+    </div>
+    <br>
+    <div>
+    <label for="language">Favorite Language:</label>
+    <select id="language" name="language" required>
+      <option value="">Choose one</option>
+      <option value="English">English</option>
+      <option value="Kishwahili">Kishwahili</option>
+      <option value="French">French</option>
+    </select>
+    </div>
+
+
+<br>
+<div>
+     <label for="feedback">Feedback:</label>
+    <textarea id="feedback" name="feedback" minlength="10" placeholder="Your thoughts..."></textarea>
+</div>
+<br>
+<div>
+<input type="submit" value="Submit">
+</div>
+
+</form>
+ </body>
+
+
+</html
